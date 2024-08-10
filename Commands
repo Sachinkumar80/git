@@ -1,0 +1,6 @@
+Initialize: git init
+Add Remote: git remote add origin <repository-url>
+Stage Changes: git add .
+Commit: git commit -m "Initial commit"
+Push: git push -u origin <branch-name>
+git remote -v
