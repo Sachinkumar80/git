@@ -4,3 +4,15 @@ Stage Changes: git add .
 Commit: git commit -m "Initial commit"
 Push: git push -u origin <branch-name>
 git remote -v
+
+
+
+# Git to git Migration with history 
+git clone <url to ORI repo> 
+git branch -a
+git checkout branch-name
+git fetch --tags
+git remote rm origin
+git remote add origin <url to NEW repo>
+git push origin --all
+git push --tags
